@@ -25,14 +25,17 @@ classifiers = [
 ]
 dependencies = [
     "av",
+    "bids2table",
+    "elbow",
     "fiftyone",
     "matplotlib",
     "nibabel",
     "nilearn",
     "numpy",
+    "pandas >= 2.0, < 2.1",
     "Pillow",
-    "scipy",
     "scikit-learn",
+    "scipy",
 ]
 dynamic = ["version"]
 
@@ -42,6 +45,8 @@ test = [
     "pytest-cov",
 ]
 dev = [
+    "ipython",
+    "jupyter",
     "black==23.3.0",
     "flake8==5.0.4",
     "isort==5.11.5",
