@@ -1,7 +1,7 @@
 # flake8: noqa
 
 """
-Image processing utilities
+Low-level image processing utilities.
 """
 
 from ._annotate import annotate

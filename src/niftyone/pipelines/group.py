@@ -11,8 +11,8 @@ from bids2table import bids2table
 from bids2table.entities import BIDSEntities
 from tqdm import tqdm
 
+from niclips.io import VideoWriter
 from niftyone import labels
-from niftyone.io import VideoWriter
 from niftyone.tags import TAGS
 from niftyone.typing import StrPath
 
